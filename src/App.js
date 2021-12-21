@@ -1,10 +1,12 @@
 import "./App.css";
-import Die from "./Dice";
+import Die from "./Die";
 
 function App() {
   return (
     <div className="App">
-      <Die />
+      <Die face="five" />
+      <Die face="three" />
+      <Die face="two" />
     </div>
   );
 }
